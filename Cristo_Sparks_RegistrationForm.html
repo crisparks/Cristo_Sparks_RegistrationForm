@@ -1,0 +1,71 @@
+<html>
+    <head>
+        <title>Cristo Sparks' Registration Form to survey curious onlookers.</title>
+        <!-- Meta data for search engines. name define type of data and content appears at the type. -->
+        <meta name="description" 
+            content="A casually made form for the casually curious."><br>
+    </head>
+    <body>
+        <form action="process.php" method="post" align="center">
+            <!-- large and embolded text made as a heading to the page -->
+            <h1>A Casual Form for the Casually Curious.</h1>
+            <!-- To input text as First name -->
+            <p>
+                <label for="first_name">First Name:</label>
+                <input type="text" id="first_name" name="first_name">
+            </p>
+            <!-- To input text as last name -->
+            <p>
+                <label for="last_name">Last Name:</label>
+                <input type="text" id="last_name" name="last_name">
+            </p>
+            <!-- to input text as email address -->
+            <p>
+                <label for="email">Email:</label>
+                <input type="text" id="email" name="email">
+            </p>
+            <!-- to input text as password -->
+            <p>
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password">
+            </p>
+            <!-- comfirming password -->
+            <p>
+                <label for="pw_confirm">Password Confirmation:</label>
+                <input type="password" id="pw_confirm" name="password_confirmation">
+            </p>
+            <!-- Date entry system for birthday-->
+            <p>
+                <label for="birthday">Birthday:</label>
+                <input type="date" id="birthday" name="birthday">
+            </p>
+            <!-- picking gender with radio buttons -->
+            <p>
+                <label for="male">Male</label>
+                <input type="radio" id="male" name="gender" value="male">
+                <label for="female">Female</label>
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="other">Prefer not to say</label>
+                <input type="radio" id="other" name="gender" value="other">
+            </p>
+            <!-- creating a text box for longer text input -->
+            <p>A short paragraph about yourself.</p>
+            <p>
+                <textarea name="description"></textarea>
+            </p>
+            <!-- drop down menu for favorite programming language -->
+            
+            Favorite Language: 
+            <select name="language">
+                <option value="html">HTML</option>
+                <option value="javascript">Javascript</option>
+                <option value="css">CSS</option>
+                <option value="java">Java</option>
+                <option value="python">Python</option>
+            </select>
+            <!-- submit button -->
+            <p>
+                <input type="submit" value="Submit">
+            </p>
+    </body>
+</html>
